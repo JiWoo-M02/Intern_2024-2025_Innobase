@@ -183,10 +183,6 @@ class RealTimeGraph:
         )
         plt.show()
 
-# 이하 코드 유지
-# 데이터 처리 및 MQTT 관련 기존 코드 생략...
-
-
 
 # 엑셀 데이터 저장 함수
 def save_to_excel():
