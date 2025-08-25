@@ -25,13 +25,13 @@
 <br>
 <br>
 
-## 📌 Project 2: 차량 CAN 통신 기반 ECU 데이터 수집 및 PID 요청 시스템 개발
+# 📌 Project 2: 차량 CAN 통신 기반 ECU 데이터 수집 및 PID 요청 시스템 개발
 본 프로젝트는 Innobase 인턴십에서 수행한 과제로, 차량 내부 네트워크인 CAN(Controller Area Network) 통신을 활용하여 ECU(전자제어장치)로부터 다양한 차량 데이터를 수집·분석할 수 있는 시스템을 개발한 사례입니다.
 기존에는 표준 PID를 이용한 데이터 요청 과정에서 일부 제조사 차량(현대·기아)의 경우 지원되지 않는 문제가 발생했으나, 본 프로젝트에서는 확장 PID 정의 및 시리얼 모니터 기반 직접 요청 기능을 추가하여 문제를 해결하였습니다.
 
 <br>
 
-## 📑 Key Features
+### 📑 Key Features
 - CAN 통신 구현: Arduino UNO + MCP2515 모듈을 활용하여 차량 OBD-II 커넥터와 연결, ECU와의 데이터 송수신 수행
 - 표준 PID 요청/응답 처리: 차량 속도, 엔진 RPM, 냉각수 온도, 연료량, 런타임 등 주요 데이터를 PID 기반으로 요청 및 수신
 - 확장 PID 지원: 현대·기아 차량용 확장 PID 정의(hyundaiPID.h, kiaPID.h)를 추가하여 제조사별 비표준 데이터 접근 가능
@@ -40,7 +40,7 @@
 
 <br>
 
-## 🛠️ Skills
+### 🛠️ Skills
 - Arduino (UNO, MCP2515, CAN Bus Library)
 - C/C++ 임베디드 프로그래밍 (PID 요청/응답 처리, 시리얼 통신)
 - CAN 프로토콜 이해 (다중 마스터, ID 기반 메시지 우선순위, 반이중 통신)
